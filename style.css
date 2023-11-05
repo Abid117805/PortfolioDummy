@@ -131,15 +131,8 @@ pre{
     margin-bottom: 50px;
     background-color: rgba(92, 92, 241, 0.603);
 }
-
-@media(max-width:768px){
-    .pic img{
-        margin-top: 0;
-        width: 200px;
-        height: 300px;
-        justify-content: center;
-    }
-
+.right img{
+    padding-top: 90px;
 }
 
 
