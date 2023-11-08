@@ -192,6 +192,96 @@ pre{
 
 
 
+
+
+
+
+
+
+
+/* The Contact us part Start's here........ */
+#contact{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 22px;
+}
+#contact .contaner{
+    width: 80%;
+    background-color: rgba(0, 255, 255, 0.527);
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send-us-message{
+    flex: 1;
+    background-color: rgba(104, 44, 160, 0.733);
+    color: #fff;
+    padding: 35px;
+}
+.send-us-message h2{
+    padding-top: 12px;
+    padding-bottom: 30px;
+}
+.send-us-message .input-grop{
+    width: 450px;
+    transition: .5s;
+    line-height: 90px;
+}
+.input-filed{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid rgba(204, 31, 31, 0.589);
+    background: transparent;
+}
+
+.input-filed:focus{
+   outline: none;
+   border-bottom-color:red ;
+}
+.botton{
+    margin-top: 30px;
+    padding-top: 05px;
+    padding-bottom: 10px;
+    background-color: #1498a1bb;
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.contact-us{
+    flex: 1;
+    padding: 40px;
+    line-height: 80px;
+
+}
+
+.contact-us h2{
+    /* padding-top: 15px; */
+    line-height: 40px;
+    font-size: 35px;
+}
+.contact-us .vatal{
+    height: 4px;
+    width: 60px;
+    background-color: #980606;
+    border-radius: 4px;
+}
+
+.some-word{
+    
+    line-height: 25px;
+    padding-top: 12px;
+    font-size: 25px;
+}
+
+
 /* renponsive miadia query start */
 @media(max-width:991px){
     .max-width{
