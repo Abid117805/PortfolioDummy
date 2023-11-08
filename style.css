@@ -282,36 +282,6 @@ pre{
 }
 
 
-/* renponsive miadia query start */
-@media(max-width:991px){
-    .max-width{
-        padding: 0 50px;
-    }
-    .menu-btn{
-        display: block;
-        z-index: 999;
-    }
-    .navebar .menu{
-        position: fixed;
-        height: 120vh;
-        background: #111111;
-        width: 100%;
-        left: -100px;
-        top: 0;
-        text-align: center;
-        padding-top: 50px;
-    }
-    .navebar .menu.open{
-        left: 0;
-    }
-    .navebar .menu li{
-        display: block;
-    }
-    .navebar .menu li a{
-        display: inline-block;
-        margin: 20px 0;
-        font-size: 25px;
-    }
-}
+
 
 
